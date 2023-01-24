@@ -49,14 +49,14 @@ export const getMessege = async (req, res) => {
 
         res.send({rec:rec,vaiw:vaiw.length})
       
-} catch (error) {
-    
-    console.log(error)
-    res.status(500).send({
-        status: 500,
-        message: "Failed to Messege"
-    });
-}
+    } catch (error) {
+        
+        console.log(error)
+        res.status(500).send({
+            status: 500,
+            message: "Failed to Messege"
+        });
+    }
 }
 
 export const SendedMessege = async (req, res) => { 
@@ -67,14 +67,14 @@ export const SendedMessege = async (req, res) => {
 
         res.send(rec)
       
-} catch (error) {
-    
-    console.log(error)
-    res.status(500).send({
-        status: 500,
-        message: "Failed to Messege"
-    });
-}
+    } catch (error) {
+        
+        console.log(error)
+        res.status(500).send({
+            status: 500,
+            message: "Failed to Messege"
+        });
+    }
 }
 
 export const getoneMessege = async (req, res) => { 
@@ -85,14 +85,14 @@ export const getoneMessege = async (req, res) => {
        
         res.send(message)
       
-} catch (error) {
-    
-    console.log(error)
-    res.status(500).send({
-        status: 500,
-        message: "Failed to Messege"
-    });
-}
+    } catch (error) {
+        
+        console.log(error)
+        res.status(500).send({
+            status: 500,
+            message: "Failed to Messege"
+        });
+    }
 }
 
 export const deleteMessege = async (req, res) => { 
@@ -103,14 +103,14 @@ export const deleteMessege = async (req, res) => {
        
         res.send(message)
       
-} catch (error) {
-    
-    console.log(error)
-    res.status(500).send({
-        status: 500,
-        message: "Failed to Messege"
-    });
-}
+    } catch (error) {
+        
+        console.log(error)
+        res.status(500).send({
+            status: 500,
+            message: "Failed to Messege"
+        });
+    }
 }
 
 
